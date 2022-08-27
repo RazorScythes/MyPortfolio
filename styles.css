@@ -245,6 +245,9 @@ ol, ul {
     .banner__overlay{padding-top:70px;}
     .banner__overlay__main-image {width: 450px;}
 }
+@media only screen and (max-width: 575px) {
+    .banner__overlay__main-image {display:block;}
+}
 @media only screen and (max-width: 524px) {
     .banner__overlay__sub-heading {font-size: 14px;}
     .banner__overlay__main-heading {font-size: 28px;}
