@@ -36,7 +36,7 @@
 </head>
 <body>
     <!-- NAVBAR-->
-    <nav class="navbar navbar-expand-lg" style="position: absolute; width: 100%;">
+    <nav class="navbar fixed-top navbar-expand-lg">
         <div class="container" style="position: relative">
             <a class="navbar-brand logo" href="#">JAMES</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,7 +55,10 @@
                             <a class="nav-link" href="#work">SKILLS </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#blog">PORTFOLIO</a>
+                            <a class="nav-link" href="#blog">PROJECTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact-us">CONTACT</a>
                         </li>
                     </ul>
             </div>
@@ -66,13 +69,21 @@
     <!-- START BANNER-->
     <section class="banner">
         <div class="banner__overlay">
-            <img class="banner__overlay__image-background" src="./assets/images/Background_B3H_v3.png" />
-                <div class="container">
+            <!-- <img class="banner__overlay__image-background" src="./assets/images/Background_B3H_v3.png" /> -->
+                <div class="container no-padding">
                 <div class="row">
-                    <div class="col">
-                        <h1 class="banner__overlay__main-heading">Hi, I am <h1 class="banner__overlay__main-heading banner__overlay__main-heading--cursive">James Arvie Maderas</h1></h1>
-
-                        <h4 class="banner__overlay__description">I am fresh graduate from Mabalacat City College and I am a web developer. I am enjoy building websites ranging from small to large scale.</h4>
+                    <div class="col pb-5 banner__content">
+                        <div>
+                            <h1 class="banner__overlay__main-heading">WELCOME!</h1>
+                            <h2 class="banner__overlay__main-profession">I'm a Web Developer</h2>
+                            <h4 class="banner__overlay__description">I'm a fresh graduate from Mabalacat City College and I am a web developer. I am enjoy building websites ranging from small to large scale.</h4>
+                            <ul class="social-media-links">
+                                <li><a class="social-media-links-item" href="https://github.com/RazorScythes" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                                <li><a class="social-media-links-item" href="https://www.facebook.com/RazorScythe/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a class="social-media-links-item" href="https://www.linkedin.com/in/james-arvie-maderas-930ba5246/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            </ul>
+                            <button class="download_cv">Download CV</button>
+                        </div>
                     </div>
                     <div class="col" style="text-align: center;">
                         <img class="banner__overlay__main-image" src="./assets/images/profile.jpg" />
@@ -90,14 +101,14 @@
                     <div class="row">
                         <div class="col-lg-12 m-auto">
                             <div class="about-us_txt text-center">
-                                <span>Profile</span>
+                                <!-- <span>Profile</span> -->
                                 <h2>About Me</h2>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="profile">
-                    <div class="profile_col1">
+                    <div class="profile_col1 pb-3">
                         <img class="banner__overlay__main-image" src="./assets/images/profile.png" />
                     </div>
                     <div class="profile_col2">
@@ -105,11 +116,12 @@
                         <h3 class="profile__name">James Arvie Maderas</h3>
                         <h3 class="profile__description">I am flexible, reliable and possess excellent time keeping skills. I am an enthusiastic, self-motivated, reliable, responsible and hard working person.  I am always energetic and eager to learn new skills. I am able to work well both in a team environment as well as using own initiative.</h3>
                         <ul>
-                            <li>Birthday    :  07/25/2000</li>
-                            <li>Address     :  Blk 28 Lot 06 Dolores Ave MRC Mabalacat City, Pampanga</li>
-                            <li>Phone: +639762376056</li>
-                            <li>Email: jamezarviemaderas@gmail.com</li>
-                            <li>Nationality: Filipino</li>
+                            <li><strong>Name</strong> : James Arvie Maderas</li> 
+                            <li><strong>Age</strong> : 22</li>
+                            <li><strong>Address</strong> : Mabalacat City, Pampanga</li>
+                            <li><strong>Phone</strong> : +639762376056</li>
+                            <li><strong>Email</strong> : jamezarviemaderas@gmail.com</li>
+                            <li><strong>Nationality</strong> : Filipino</li>
                         </ul>
                     </div>
                 </div>
@@ -131,73 +143,73 @@
                         <div class="work_content">
                             <div>
                                 <p>HTML</p>
-                                <label>90%</label>
-                                <div class="progress"><div class="progress-bar w90"></div></div>
+                                <label>80%</label>
+                                <div class="progress"><div class="progress-bar w80"></div></div>
                             </div>
                             <div>
                                 <p>CSS</p>
-                                <label>90%</label>
-                                <div class="progress"><div class="progress-bar w90"></div></div>
+                                <label>80%</label>
+                                <div class="progress"><div class="progress-bar w70"></div></div>
                             </div>
                             <div>
                                 <p>Node JS</p>
-                                <label>80%</label>
-                                <div class="progress"><div class="progress-bar w80"></div></div>
+                                <label>70%</label>
+                                <div class="progress"><div class="progress-bar w70"></div></div>
                             </div>
                             <div>
                                 <p>ReactJS</p>
-                                <label>80%</label>
-                                <div class="progress"><div class="progress-bar w80"></div></div>
+                                <label>70%</label>
+                                <div class="progress"><div class="progress-bar w70"></div></div>
                             </div>
                             <div>
                                 <p>Arduino / ExpressIf</p>
-                                <label>80%</label>
-                                <div class="progress"><div class="progress-bar w80"></div></div>
+                                <label>70%</label>
+                                <div class="progress"><div class="progress-bar w70"></div></div>
                             </div>
                             <div>
                                 <p>JavaScript</p>
-                                <label>80%</label>
-                                <div class="progress"><div class="progress-bar w80"></div></div>
+                                <label>70%</label>
+                                <div class="progress"><div class="progress-bar w70"></div></div>
                             </div>
                             <div>
                                 <p>Jquery</p>
-                                <label>80%</label>
-                                <div class="progress"><div class="progress-bar w80"></div></div>
+                                <label>70%</label>
+                                <div class="progress"><div class="progress-bar w70"></div></div>
                             </div>
                             <div>
                                 <p>Python</p>
-                                <label>70%</label>
-                                <div class="progress"><div class="progress-bar w70"></div></div>
-                            </div>
-                            <div>
-                                <p>PHP</p>
-                                <label>70%</label>
-                                <div class="progress"><div class="progress-bar w70"></div></div>
-                            </div>
-                            <div>
-                                <p>Java</p>
                                 <label>60%</label>
                                 <div class="progress"><div class="progress-bar w60"></div></div>
                             </div>
                             <div>
+                                <p>PHP</p>
+                                <label>60%</label>
+                                <div class="progress"><div class="progress-bar w60"></div></div>
+                            </div>
+                            <div>
+                                <p>Java</p>
+                                <label>50%</label>
+                                <div class="progress"><div class="progress-bar w50"></div></div>
+                            </div>
+                            <div>
                                 <p>WordPress</p>
-                                <label>80%</label>
-                                <div class="progress"><div class="progress-bar w80"></div></div>
+                                <label>60%</label>
+                                <div class="progress"><div class="progress-bar w60"></div></div>
                             </div>
                             <div>
                                 <p>Bootstrap</p>
-                                <label>90%</label>
-                                <div class="progress"><div class="progress-bar w90"></div></div>
+                                <label>70%</label>
+                                <div class="progress"><div class="progress-bar w70"></div></div>
                             </div>
                             <div>
                                 <p>Material UI</p>
-                                <label>80%</label>
-                                <div class="progress"><div class="progress-bar w80"></div></div>
+                                <label>70%</label>
+                                <div class="progress"><div class="progress-bar w70"></div></div>
                             </div>
                             <div>
                                 <p>Tailwind CSS</p>
-                                <label>80%</label>
-                                <div class="progress"><div class="progress-bar w80"></div></div>
+                                <label>70%</label>
+                                <div class="progress"><div class="progress-bar w70"></div></div>
                             </div>
                         </div>
                     </div>
@@ -213,7 +225,7 @@
                     <div class="row">
                         <div class="col-lg-12 m-auto">
                             <div class="blog_txt text-center">
-                                <span>Portfolio</span>
+                                <!-- <span>Portfolio</span> -->
                                 <h2>My Recent Projects</h2>
                             </div>
                         </div>
@@ -226,8 +238,11 @@
                                         <div class="date text-center"><h2>1</h2><label>#</label></div>
                                     </div>
                                     <div class="blog_content">
-                                        <h5>Simple Ecommerce Website Using PHP</h5>
+                                        <h5>Simple Ecommerce Website <br>Using PHP</h5>
                                         <p>My first website i created using php. The store is more on beauty products. It has user authentication and upload products</p>
+                                    </div>
+                                    <div class="blog_footer">
+
                                     </div>
                                 </div>
                             </a>
@@ -238,8 +253,11 @@
                                         <div class="date text-center"><h2>2</h2><label>#</label></div>
                                     </div>
                                     <div class="blog_content">
-                                        <h5>MULTI FUNCTIONAL WEB SERVER USING ESP32-CAM</h5>
+                                        <h5>Multi Functional Web Server using ESP32-Cam</h5>
                                         <p>An IOT projects that uses webserver to control the esp32 camera and set the configuration that depends on users. It can capture movements, makes timelapes and see realtime.</p>
+                                    </div>
+                                    <div class="blog_footer">
+
                                     </div>
                                 </div>
                             </a>
@@ -250,8 +268,41 @@
                                         <div class="date text-center"><h2>3</h2><label>#</label></div>
                                     </div>
                                     <div class="blog_content">
-                                        <h5>CAPSTONE PROJECT: ALUMNI YEARBOOK MAKER FOR MABALACAT CITY COLLEGE USING MERN STACK</h5>
+                                        <h5>Capstone Project: Alumni Yearbook Maker for Mabalacat City College</h5>
                                         <p>The purpose of this project is to make portable alumni yearbook. With the current pandemic and problems for student of mabalacat city college that their yearbook cannot receive. The websites can make the yearbook depends on the batch year and the inserted alumni and it automatically creates user for them to view in this websites</p>
+                                    </div>
+                                    <div class="blog_footer">
+
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="m-auto" href="https://drive.google.com/drive/folders/1AaCCXOqJtF6uvwTvlS4oFEOTO-zmQaW4?usp=sharing" target="_blank">
+                                <div class="blog_box">
+                                    <div class="blog_image">
+                                        <img src="./assets/images/portfolio1.png">
+                                        <div class="date text-center"><h2>1</h2><label>#</label></div>
+                                    </div>
+                                    <div class="blog_content">
+                                        <h5>Simple Ecommerce Website <br>Using PHP</h5>
+                                        <p>My first website i created using php. The store is more on beauty products. It has user authentication and upload products</p>
+                                    </div>
+                                    <div class="blog_footer">
+
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="m-auto"href="https://drive.google.com/drive/folders/1oKA_kQ3a8du3ygkZduxOg1YvTuTFIkNR?usp=sharing" target="_blank">
+                                <div class="blog_box">
+                                    <div class="blog_image">
+                                        <img src="./assets/images/portfolio2.png">
+                                        <div class="date text-center"><h2>2</h2><label>#</label></div>
+                                    </div>
+                                    <div class="blog_content">
+                                        <h5>Multi Functional Web Server using ESP32-Cam</h5>
+                                        <p>An IOT projects that uses webserver to control the esp32 camera and set the configuration that depends on users. It can capture movements, makes timelapes and see realtime.</p>
+                                    </div>
+                                    <div class="blog_footer">
+
                                     </div>
                                 </div>
                             </a>
@@ -261,6 +312,57 @@
         </div>
     </section>
     <!-- END PROJECTS-->
-
+    <!-- START CONTACT US-->
+    <section id="contact-us">
+        <div class="contact-us_overlay">
+            <div class="container">
+                <div class="container no-padding m-auto">
+                    <div class="row">
+                        <div class="col-lg-12 m-auto">
+                            <div class="about-us_txt text-center">
+                                <!-- <span>Profile</span> -->
+                                <h2>Contact Us</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-us_form">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12 col-xs-12 pt-3">
+                          <input type="text" class="form-control" placeholder="Name">
+                        </div>
+                        <div class="col-md-6 col-sm-12 col-xs-12 pt-3">
+                          <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="row pt-3">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Subject">
+                        </div>
+                    </div>
+                    <div class="row pt-3">
+                        <div class="col">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="8" placeholder="Your Message"></textarea>
+                        </div>
+                    </div>
+                    <button class="send_message">Send Message</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END CONTACT US-->
 </body>
 </html>
+
+<script>
+    var myNav = document.querySelector('.navbar');
+    
+    window.onscroll = () => {
+        console.log(myNav)
+    if (window.scrollY > 200) {
+        myNav.classList.add('nav-active');
+    } else {
+        myNav.classList.remove('nav-active');
+    }
+};
+</script>
