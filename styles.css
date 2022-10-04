@@ -72,6 +72,13 @@ ol, ul {
     list-style: none;
 }
 
+.container{
+    max-width: 1400px !important;
+    width: 100%;
+    border: 1px solid cyan;
+    padding: 0 !important;
+}
+
 @media only screen and (max-width: 991px){
     .container.no-padding.tablet{
         max-width: 100%;
