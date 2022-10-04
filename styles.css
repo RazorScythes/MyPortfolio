@@ -250,7 +250,8 @@ ol, ul {
 }
 
 .download_cv {
-    margin-top: 50px;
+    display: inline-block;
+    margin-top: 20px;
     padding: 10px 20px;
     background-color: #ED4754;
     color: #fff;
@@ -262,6 +263,7 @@ ol, ul {
 }
 
 .download_cv:hover {
+    text-decoration: none;
     background-color: transparent;
     color: #ED4754;
 }
