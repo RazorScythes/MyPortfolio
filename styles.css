@@ -906,13 +906,14 @@ ol, ul {
 }
 
 .blog_box .blog_image .date label {
-    padding-top: 15px;
+    padding-top: 35px;
     line-height: 0;
     color: #FFFFFF;
     font-style: italic;
 }
 
 .blog_box .blog_content p {
+    display:block;
     padding: 0 15px;
     padding-bottom: 30px;
     text-align: justify;
@@ -961,7 +962,21 @@ ol, ul {
 }
 
 @media only screen and (max-width: 480px){
-
+    .blog_box .blog_content p {
+        display:none;
+    }
+    
+    .blog_box .blog_content h5 {
+        padding: 35px 15px;
+        font-size: 18px;
+        word-wrap: break-word;
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    .blog_box {
+        width: 80%;
+    }
 }
 
 @media only screen and (max-width: 380px){
