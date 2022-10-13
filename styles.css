@@ -906,7 +906,7 @@ ol, ul {
 }
 
 .blog_box .blog_image .date label {
-    padding-top: 35px;
+    padding-top: 25px;
     line-height: 0;
     color: #FFFFFF;
     font-style: italic;
@@ -967,11 +967,8 @@ ol, ul {
     }
     
     .blog_box .blog_content h5 {
-        padding: 35px 15px;
-        font-size: 18px;
-        word-wrap: break-word;
-        font-weight: 700;
-        text-align: center;
+        padding: 45px 15px;
+        font-size: 15px;
     }
     
     .blog_box {
