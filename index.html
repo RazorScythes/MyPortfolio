@@ -343,11 +343,10 @@
     var myNav = document.querySelector('.navbar');
     
     window.onscroll = () => {
-        console.log(myNav)
-    if (window.scrollY > 200) {
-        myNav.classList.add('nav-active');
-    } else {
-        myNav.classList.remove('nav-active');
+        if (window.scrollY > 200) {
+            myNav.classList.add('nav-active');
+        } else {
+            myNav.classList.remove('nav-active');
     }
         
     function sendMail() {
