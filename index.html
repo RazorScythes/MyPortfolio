@@ -330,7 +330,7 @@
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="8" placeholder="Your Message"></textarea>
                         </div>
                     </div>
-                    <button class="send_message" onClick="sendMail();">Send Message</button>
+                    <button class="send_message" onclick="sendMail();">Send Message</button>
                 </div>
             </div>
         </div>
@@ -351,6 +351,8 @@
     }
         
     function sendMail() {
+        console.log("HELLO WORLD");
+        return;
         var link = "mailto:razorscythe25@gmail.com"
                  + `?cc=${document.getElementById('email').value}`
                  + "&subject=" + encodeURIComponent(document.getElementById('subject').value)
